@@ -1,4 +1,4 @@
-# kotlin-snacks
+# Kotlin snacks
 
 Lil kotlin snacks for you to munch on.
 
