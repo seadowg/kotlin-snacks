@@ -1,6 +1,6 @@
 # Using `let` to deal with optionals
 
-Kotlin is smart enough to know that bad things might happen to variables
+Kotlin is smart enough to know that bad things (being set to null) might happen to variables
 with an optional type due to naughty threads. For instance:
 
 ```kotlin
