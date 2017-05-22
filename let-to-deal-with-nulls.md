@@ -11,7 +11,7 @@ if (maybeHello != null) {
 }
 ```
 
-This won't work as Kotlin is worried `maybeHello` could change value between the null check
+This won't work as Kotlin is worried the value of `maybeHello` could change between the `null` check
 and the the `println`. All objects (anything that extend `Any?`) have a `let` function 
 that can help with this. The `let` function calls the passed block with the callee's value:
 
